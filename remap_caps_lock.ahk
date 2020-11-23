@@ -1,8 +1,3 @@
 setTitleMatchMode,2
-#IfWinActive,VIM
-   CAPSLOCK::ESC
-return
-
-#IfWinActive
-   CAPSLOCK::CTRL
+CAPSLOCK::ESC
 return
