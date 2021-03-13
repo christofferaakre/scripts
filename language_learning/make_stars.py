@@ -6,6 +6,12 @@
 # christoffer.corfield@gmail.com
 # I will be happy to help!
 
+# your term bank should have this format:
+# https://raw.githubusercontent.com/christofferaakre/scripts/master/language_learning/json/without_stars/term_meta_bank_1.json
+
+# after running it should look like this:
+# https://raw.githubusercontent.com/christofferaakre/scripts/master/language_learning/json/with_stars/term_meta_bank_1.json
+
 star = '★'
 
 def freq_to_stars(freq: int) -> str:
